@@ -1,37 +1,23 @@
 {
   "settings": {
-    "name": "Testimonials",
+    "name": "Join Study's Testimonials",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
-      "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": true
-      }
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
     },
-    "versionFirst": "3.11.1",
-    "uniqCompNum": 11,
-    "versionPublish": "3.11.1",
-    "favicon": "",
-    "noImageResize": "",
-    "google-analytics": "<!-- Google Analytics -->\r\n<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-48357795-4', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>\r\n<!-- /Google Analytics -->"
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 10,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Join Study's Testimonials",
+        "title": "",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -39,348 +25,301 @@
       },
       "components": [
         {
-          "_inherit": "testimonials2",
+          "_inherit": "header1",
+          "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "testimonials4",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-size": "32px"
-            },
-            ".card-footer > div": {
-              "color": "#ffffff"
-            }
-          },
-          "testimonial": [
-            {
-              "text": "\"Many many thanks to Join Study and respected Ajit Mishra sir, I was under his coaching for past two years and really those days was best for my education and career. Now I get a good job in Logistics Industries\".",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face3.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Arijit Sen,&nbsp;<div>Logistics Manager,&nbsp;</div><div>S. G. Cargo. Kolkata, India.</div>",
-              "authorBio": "User"
-            },
-            {
-              "text": "\"Thanks to Join Study and Ajit Mishra to teach me Logistics Management for my MBA Course. His support makes my result better. With hope of a better future of Join Study, I am always eager to support Ajit sir\".",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Nomi P.&nbsp;<div>Logistics Professional.&nbsp;</div><div>Tokyo, Japan.</div>",
-              "authorBio": "User"
-            },
-            {
-              "text": "\"Thanks to Mr. Ajit Mishra and Join Study to teach me Mathematics. Now today math is my favorite subject and I like to solve mathematical problems. Teaching technics of Ajit Mishra sir and Join Study is really best\".",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Angelina.&nbsp;<div>Student,&nbsp;</div><div>Grade 11, London, U.K.</div>",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p>“Join study is the best online tuition and training platform for Logistics &amp; Supply Chain Management. Mr. Ajit Mishra has great knowledge and experineces of Modern Logistics &amp; supply Chain Managenet. I have lernet everything under his training session and now I am a succesful Professional.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "J. Methew<br>Truck Transport Operator,<br>Singapore.",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>“Thanks to Join Study and Ajit Mishra sir to teach me Mathematics. Under his best coaching and proper guidence now I have selected for IIT. His process of teaching make evything easy for me.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Sakshi Diva<br>Student<br>India.",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>“I am happy for taking my coaching of Mathematics under Join Study. Ajit Mishra is my favourite teacher of Mathematics. He is really everbest among all math teacher which I have know till now.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Shreenath Nikam,<br>Student Class 12,&nbsp;<br>India.",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>“Perfact Online Tuition &amp; Training Classes for those who are doing courses from CILT. Under his coaching and training I learnet every working details and solved many case studies for different issues in Logistics.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Selina R.<br>Logistics Professional<br>USA.",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>“Join Study is really best online training provider for Logistics and Supply Chain Management. Mr. Ajit Mishra - the perfact trainer for Logistics. Also thanks to him for teach me about Cold Chain Supply Management.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Smith J.<br>Cold Chain Transporter,<br>Australia.",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "<p>“I am really the best customer for Join Study. Because Join Study teach me Hindi which is helpful for my export business in India and my doughter also studied Mathematics under Ajit Mishra .”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Mike John<br>Exporter,<br>USA.",
-              "authorBio": "Developer"
-            }
-          ],
-          "_anchor": "testimonials4-3",
-          "_params": {
-            "count": "9",
-            "paddingTop": "3",
-            "paddingBottom": "1",
-            "showImages": false,
-            "showName": true,
-            "showBio": false,
-            "bgImageRadio": false,
-            "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1332.jpg",
-            "bgColor": "#7e9b9f",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.2,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": false
-          },
-          "title": "WHAT OUR FANTASTIC USERS SAY",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
+          "_name": "header4",
           "_styles": {
             "P": {
               "color": "#ffffff"
             }
           },
-          "_anchor": "footer1-4",
+          "_anchor": "header4-5",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
           },
-          "text": "Copyright (c) 2017 Join Study."
+          "title": "What Our Fantastic Users Say",
+          "text": "Hear success stories straight from our customer. Our stusfied users are our suucess.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://joinstudy.moodlecloud.com\" data-toolbar=\"-mbrBtnMove\">CLASSROOM</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://joinstudy.in/career\" data-toolbar=\"-mbrBtnMove\">CAREER</a>"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#232323"
+          "items": [
+            {
+              "text": "<i>\"Many many thanks to Join Study and respected Ajit Mishra sir, I was under his coaching for past two years and really those days was best for my education and career. Now I get a good job in Logistics Industries\".</i>",
+              "authorName": "Arijit Sen,&nbsp;<div>Logistics Manager,&nbsp;</div><div>S. G. Cargo. Kolkata, India.</div>",
+              "authorBio": ""
             },
-            ".mbr-section-title": {
-              "font-size": "24px",
-              "color": "#ffffff"
+            {
+              "text": "<i>\"Thanks to Join Study and Ajit Mishra to teach me Logistics Management for my MBA Course. His support makes my result better. With hope of a better future of Join Study, I am always eager to support Ajit sir\".</i>",
+              "authorName": "Nomi P.&nbsp;<div>Logistics Professional.&nbsp;</div><div>Tokyo, Japan.</div>",
+              "authorBio": ""
+            },
+            {
+              "text": "<i>\"Thanks to Mr. Ajit Mishra and Join Study to teach me Mathematics. Now today math is my favorite subject and I like to solve mathematical problems. Teaching technics of Ajit Mishra sir and Join Study is really best\".</i>",
+              "authorName": "Angelina.&nbsp;<div>Student,&nbsp;</div><div>Grade 11, London, U.K.</div>",
+              "authorBio": "User"
+            },
+            {
+              "text": "<i>“Join study is the best online tuition and training platform for Logistics &amp; Supply Chain Management. Mr. Ajit Mishra has great knowledge and experineces of Modern Logistics &amp; supply Chain Managenet. I have lernet everything under his training session and now I am a succesful Professional.”</i>",
+              "authorName": "J. Methew<div>Truck Transport Operator,</div><div>Singapore.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“Thanks to Join Study and Ajit Mishra sir to teach me Mathematics. Under his best coaching and proper guidence now I have selected for IIT. His process of teaching make evything easy for me.”</i>",
+              "authorName": "Sakshi Diva<div>Student</div><div>India.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“I am happy for taking my coaching of Mathematics under Join Study. Ajit Mishra is my favourite teacher of Mathematics. He is really everbest among all math teacher which I have know till now.”</i>",
+              "authorName": "Shreenath Nikam,<div>Student Class 12,&nbsp;</div><div>India.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“Perfact Online Tuition &amp; Training Classes for those who are doing courses from CILT. Under his coaching and training I learnet every working details and solved many case studies for different issues in Logistics.”</i>",
+              "authorName": "Selina R.<div>Logistics Professional</div><div>USA.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“Join Study is really best online training provider for Logistics and Supply Chain Management. Mr. Ajit Mishra - the perfact trainer for Logistics. Also thanks to him for teach me about Cold Chain Supply Management.”</i>",
+              "authorName": "Smith J.<div>Cold Chain Transporter,</div><div>Australia.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“I am really the best customer for Join Study. Because Join Study teach me Hindi which is helpful for my export business in India and my doughter also studied Mathematics under Ajit Mishra.”</i>",
+              "authorName": "Mike John<div>Exporter,</div><div>USA.</div>",
+              "authorBio": "Developer"
             }
-          },
+          ],
+          "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-6",
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "<i>\"Many many thanks to Join Study and respected Ajit Mishra sir, I was under his coaching for past two years and really those days was best for my education and career. Now I get a good job in Logistics Industries\".</i>",
+              "authorName": "Arijit Sen,&nbsp;<div>Logistics Manager,&nbsp;</div><div>S. G. Cargo. Kolkata, India.</div>",
+              "authorBio": ""
+            },
+            {
+              "text": "<i>\"Thanks to Join Study and Ajit Mishra to teach me Logistics Management for my MBA Course. His support makes my result better. With hope of a better future of Join Study, I am always eager to support Ajit sir\".</i>",
+              "authorName": "Nomi P.&nbsp;<div>Logistics Professional.&nbsp;</div><div>Tokyo, Japan.</div>",
+              "authorBio": ""
+            },
+            {
+              "text": "<i>\"Thanks to Mr. Ajit Mishra and Join Study to teach me Mathematics. Now today math is my favorite subject and I like to solve mathematical problems. Teaching technics of Ajit Mishra sir and Join Study is really best\".</i>",
+              "authorName": "Angelina.&nbsp;<div>Student,&nbsp;</div><div>Grade 11, London, U.K.</div>",
+              "authorBio": "User"
+            },
+            {
+              "text": "<i>“Join study is the best online tuition and training platform for Logistics &amp; Supply Chain Management. Mr. Ajit Mishra has great knowledge and experineces of Modern Logistics &amp; supply Chain Managenet. I have lernet everything under his training session and now I am a succesful Professional.”</i>",
+              "authorName": "J. Methew<div>Truck Transport Operator,</div><div>Singapore.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“Thanks to Join Study and Ajit Mishra sir to teach me Mathematics. Under his best coaching and proper guidence now I have selected for IIT. His process of teaching make evything easy for me.”</i>",
+              "authorName": "Sakshi Diva<div>Student</div><div>India.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“I am happy for taking my coaching of Mathematics under Join Study. Ajit Mishra is my favourite teacher of Mathematics. He is really everbest among all math teacher which I have know till now.”</i>",
+              "authorName": "Shreenath Nikam,<div>Student Class 12,&nbsp;</div><div>India.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“Perfact Online Tuition &amp; Training Classes for those who are doing courses from CILT. Under his coaching and training I learnet every working details and solved many case studies for different issues in Logistics.”</i>",
+              "authorName": "Selina R.<div>Logistics Professional</div><div>USA.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“Join Study is really best online training provider for Logistics and Supply Chain Management. Mr. Ajit Mishra - the perfact trainer for Logistics. Also thanks to him for teach me about Cold Chain Supply Management.”</i>",
+              "authorName": "Smith J.<div>Cold Chain Transporter,</div><div>Australia.</div>",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<i>“I am really the best customer for Join Study. Because Join Study teach me Hindi which is helpful for my export business in India and my doughter also studied Mathematics under Ajit Mishra.”</i>",
+              "authorName": "Mike John<div>Exporter,</div><div>USA.</div>",
+              "authorBio": "Developer"
+            }
+          ],
+          "_anchor": "testimonials1-2",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "0",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": "9",
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#3d8eb9",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff8e0",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "showTitle": true
           },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
+          "header": "What Our Fantastic Users Say"
         },
         {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "32px"
+            }
+          },
+          "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons1",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "24px",
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "social-buttons1-7",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-9",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#3d8eb9",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#FFF8E0",
             "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "facebook": true,
-            "twitter": true,
-            "google": true,
-            "vkontakte": false,
-            "odnoklassniki": false
+            "showTitle": true,
+            "showMeta": false,
+            "showText": false,
+            "showButton": false
           },
-          "text": "SHARE THIS PAGE!"
+          "title": "Users Are Welcome To Post Testimonials Here Below Live",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>"
         },
         {
           "_styles": {
-            ".hide-buttons .nav-btn": {
+            ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "24px"
+            ".navbar-brand a": {
+              "font-size": "30px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.4em",
+              "color": "#0275d8"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#fff8e0"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#fff3cc"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-family": "'Oswald', sans-serif"
-            },
-            ".link": {
-              "font-size": "0.9rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.975rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1f5087"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#2662a4!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2969b0"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#0275d8"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "menu",
-          "_anchor": "menu-a",
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0",
           "_params": {
-            "bgColor": "#2969b0",
-            "fontSize": "0.9",
-            "fontName": {
-              "name": "Oswald",
-              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "css": "'Oswald', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
+            "bgColor": "#fff8e0",
+            "fontSize": "1.4",
+            "fontName": {},
+            "fontColor": "#0275d8",
             "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
-            "collapsed": true,
             "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.png",
+              "class": "",
               "height": 128,
               "alt": "Mobirise",
               "link": "http://joinstudy.in",
               "title": "",
               "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Join Study's Testimonials</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://joinstudy.in\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services\">SERVICES</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/blog\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOG</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://joinstudy.in/blog\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Join Study's Testimonials</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://joinstudy.in\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOG</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/blog\">Blogs</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF Blogs</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">ABOUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/about-us-1.html\">About Us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials\">Testimonials</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">Classes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">Classroom</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">Career</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services\">Services</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/contact-us-2.html\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/privacy-policy-3.html\">Privacy Policy</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-3",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/Welcome/AppData/Local/Mobirise.com/Mobirise/projectData/photo-3.jpg",
+            "bgColor": "#26272c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2017 JOIN STUDY. <a href=\"http://joinstudy.in/contact-us-2.html\">Contact Us</a><a href=\"https://mobirise.com/\"></a>  | <a href=\"http://joinstudy.in/privacy-policy-3.html\">Privacy Policy</a></p>"
+        },
+        {
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-8",
+          "_params": {
+            "postsNumber": 5,
+            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "bgImageRadio": false,
+            "bgColor": "#fff8e0",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#7e9b9f",
+            "socialFacebook": false,
+            "socialGoogle": false,
+            "shortName": "join-studys-testimonials",
+            "socialDisqus": true
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/disqus-comments.jpg\"></div>"
         }
       ]
     }
